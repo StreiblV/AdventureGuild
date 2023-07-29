@@ -1,8 +1,6 @@
 # AdventureGuild
 
-! Database must run
-
-
-
-Database:
+## Setup
+###### Database
+Must be running (localhost:3308)
 https://dev.mysql.com/downloads/mysql/
