@@ -4,19 +4,28 @@ import at.rylicx.adventureguild.constant.Archetypes;
 import at.rylicx.adventureguild.constant.Races;
 
 public class Person {
+    private int id;
     private String firstname;
     private String lastname;
     private int level;
     private Archetypes archetype;
     private Races race;
 
-    public Person(String firstname, String lastname, int level, Archetypes archetype, Races race)
+    public Person(int id, String firstname, String lastname, int level, Archetypes archetype, Races race)
     {
+        this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
         this.level = level;
         this.archetype = archetype;
         this.race = race;
+    }
+
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFirstname() {
