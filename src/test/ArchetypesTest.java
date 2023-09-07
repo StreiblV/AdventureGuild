@@ -56,6 +56,6 @@ public class ArchetypesTest {
     }
     @Test
     public void getWizardArchetype() {
-        assertEquals(Archetypes.Wizard.getDisplayName(),"Wizard");
+        assertEquals(Archetypes.WIZARD.getDisplayName(),"Wizard");
     }
 }

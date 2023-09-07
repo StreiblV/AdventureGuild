@@ -21,9 +21,9 @@ public class AdventureGuildTest {
 
     @Test
     public void getPersonList(){
-        Person lucy = new Person("Lucy", "Hiking", 4, Archetypes.CLERIC, Races.HALFING);
-        Person max = new Person("Max", "Lightfoot", 3, Archetypes.FIGHTER, Races.DWARF);
-        Person moris = new Person("Moris", "Redwing", 5, Archetypes.WARLOCK, Races.DRAGONBORN);
+        Person lucy = new Person(1, "Lucy", "Hiking", 4, Archetypes.CLERIC, Races.HALFING);
+        Person max = new Person(2, "Max", "Lightfoot", 3, Archetypes.FIGHTER, Races.DWARF);
+        Person moris = new Person(3, "Moris", "Redwing", 5, Archetypes.WARLOCK, Races.DRAGONBORN);
 
         List<Person> persons = new ArrayList<>();
         persons.add(lucy);

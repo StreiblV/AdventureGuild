@@ -13,7 +13,7 @@ public enum Archetypes {
     ROGUE("Rogue"),
     SORCERER("Sorcerer"),
     WARLOCK("Warlock"),
-    Wizard("Wizard");
+    WIZARD("Wizard");
 
     private final String displayName;
 
@@ -24,4 +24,5 @@ public enum Archetypes {
     public String getDisplayName() {
         return displayName;
     }
+
 }
